@@ -42,3 +42,17 @@ body::selection{
 .cate3{
     background-image: linear-gradient(to right, rgb(70, 70, 253),blue);
 }
+.card{
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgb(194, 191, 191);
+}
+.card-footer{
+    border-top: none;
+}
+#contact{
+    height: 300px;
+}
+footer{
+    text-align: center;
+}
