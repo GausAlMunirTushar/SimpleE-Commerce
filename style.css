@@ -1,6 +1,10 @@
 .container{
     margin-bottom: 50px;
 }
+body::selection{
+    background-color: #f52e7a;
+    color: #fff;
+}
 .orange-bg{
     background-color: #fceae8;
     border-radius: 10px;
@@ -18,4 +22,23 @@
     padding: 10px 25px;
     cursor: pointer;
     color: #fff ;
+}
+.categories{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.cate1,.cate2,.cate3{
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.cate1{
+    background-image: linear-gradient(to right, rgb(231, 171, 60), orange);
+}
+.cate2{
+    background-color: #f52e7a;
+}
+.cate3{
+    background-image: linear-gradient(to right, rgb(70, 70, 253),blue);
 }
